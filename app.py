@@ -9,7 +9,7 @@ app.layout = html.Div(
     children=[
         html.Iframe(
             # Using a relative path since viewer.html and the PDF are in the same directory
-            src="/assets/web/viewer.html?file=your_local_file.pdf",
+            src="/assets/web/viewer.html?file=compressed.tracemonkey-pldi-09.pdf",
             style={"width": "100%", "height": "100%", "border": "none"}
         )
     ]
