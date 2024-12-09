@@ -10,8 +10,8 @@ app.layout = html.Div([
         html.Iframe(
             id="pdf-viewer",
             src="/assets/pdfjs/web/viewer.html",
-            #style={"width": "100%", "height": "500px", "border": "none"}
-            style={"width": "100%", "height": "100%", "border": "none"}
+            style={"width": "100%", "height": "500px", "border": "none"}
+            #style={"width": "100%", "height": "100%", "border": "none"}
         )
     ], style={"text-align": "center"})
 ])
